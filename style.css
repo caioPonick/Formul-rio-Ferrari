@@ -119,3 +119,20 @@
 #forms_troca input{
     margin-left: 15px;
 }
+
+.forms_final_linha{
+
+    margin: 25px;
+}
+
+
+#botoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes_inner{
+    background-color: #A80B20;
+    color: white;
+    padding: 20px;
+}
