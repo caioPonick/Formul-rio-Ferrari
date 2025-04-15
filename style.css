@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    background-color: #A80B20;
+}
+
+.nav_txt{
+    margin: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+#nav_img{
+    margin: 35px 50px 20px 50px;
+    width: 60px;
+    height: 60px;
+}
+
+#title{
+    text-align: center;
+    margin: 50px;
+}
+
+.title_txt{
+    margin: 30px;
+    font-size: 25px;
+}
+
+#title_ferrari{
+    color: #A80B20;
+    font-size: 60px;
+}
+
+
+.forms{
+    margin: 60px;
+}
+
+.forms_pess_linha{
+    margin: 25px;
+    display: flex;
+}
+
+#forms_instagram{
+    width: 250px;
+}
+
+#forms_pess input{
+    margin-left: 15px;
+}
+
+#forms_pess{
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+#box_forms{
+    background-color: #A80B20;
+    padding: 50px;
+}

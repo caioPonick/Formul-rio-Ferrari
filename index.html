@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de compra</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="img/images-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="img/images-removebg-preview.png" alt="" id="nav_img">
+            <h5 class="nav_txt">Corridas</h5>
+            <h5 class="nav_txt">Carros Esportivos</h5>
+            <h5 class="nav_txt">Coleções</h5>
+            <h5 class="nav_txt">Experiências</h5>
+            <h5 class="nav_txt">Sobre Nós</h5>
+        </nav>
+    </header>
+
+    <main>
+        <div id="title">
+            <h1 class="title_txt" id="title_ferrari">FERRARI</h1>
+            <h3 class="title_txt">Formulário de Compra</h3>
+        </div>
+
+        <div id="box_forms">
+            <div class="forms" id="forms_pess">
+                <h1 class="forms_pess_linha" id="forms_pess_title">Informações Pessoais e Contato</h1>
+                <div class="forms_pess_linha"><p>Nome Completo: </p><input type="text" name="nome_completo" id="forms_nome" required></div>
+                <div class="forms_pess_linha"><p>Seu Melhor E-mail: </p> <input type="email" name="e-mail" id="forms_email" placeholder="seu@email.com"></div>
+                <div class="forms_pess_linha"><p>Telefone Principal: </p><input type="tel" name="telefone" id="forms_tel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999"></div>
+                <div class="forms_pess_linha"><p>Idade: </p><input type="number" name="idade" id="forms_idade" min="18" max="120"></div>
+                <div class="forms_pess_linha"><p>País de Residência: </p> <select name="pais"> <option value="BR">Brasil</option> <option value="US">Estados Unidos</option> </select></div>
+                <div class="forms_pess_linha"><p>Cidade: </p> <input type="text" name="cidade" id="forms_cidade"> <datalist id="cidades_brasil"> <option value="São Paulo"> <option value="Rio de Janeiro"> <option value="Joinville"> </datalist></div>
+                <div class="forms_pess_linha"><p>Link do seu Perfil do Instagram: </p> <input type="url" name="instagram_url" id="forms_instagram" placeholder="https://instagram.com/seu_perfil"> </div>
+            </div>
+
+            <div class="forms" id="forms_ctt">
+                <div class="forms_ctt_linha"><h1>Preferências de Agendamento e Contato</h1></div>
+                
+            </div>
+
+            <div class="forms" id="forms_carro">
+
+            </div>
+
+            <div class="forms" id="forms_hist">
+
+            </div>
+
+            <div class="forms" id="forms_troca">
+
+            </div>
+
+            <div class="forms" id="forms_final">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
