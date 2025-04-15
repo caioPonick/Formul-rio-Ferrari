@@ -77,6 +77,7 @@
     background-position: center;
     margin: 0;
     padding: 50px;
+
 }
 
 #forms_ctt input{
@@ -95,4 +96,26 @@
 
 #forms_pesquisa_modelo{
     width: 250px;
+}
+
+.forms_hist_linha{
+    margin: 25px;
+    display: flex;
+}
+
+#forms_hist input{
+    margin-left: 15px;
+}
+
+#forms_finalidade{
+    margin-left: 15px;
+}
+
+.forms_troca_linha{
+    margin: 25px;
+    display: flex;
+}
+
+#forms_troca input{
+    margin-left: 15px;
 }

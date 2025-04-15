@@ -22,7 +22,7 @@
 
     <main>
         <div id="title">
-            <h1 class="title_txt" id="title_ferrari">FERRARI</h1>
+                <h1 class="title_txt" id="title_ferrari">FERRARI</h1>
         </div>
 
         <div id="box_forms">
@@ -58,11 +58,19 @@
             </div>
 
             <div class="forms" id="forms_hist">
-
+                <div class="forms_hist_linha"><h1>Seu Histórico e Uso Previsto</h1></div>
+                <div class="forms_hist_linha"><p>Já possuiu uma FERRARI antes?</p> <input type="radio" id="forms_possuiu" name="primeira_ferrari" value="sim"> Sim <input type="radio" name="primeira_ferrari" value="nao"> Não</div>
+                <div class="forms_hist_linha"><p>Envie uma foto do seu carro esportivo: </p> <input type="file" id="forms_foto" name="foto_carro_atual" accept="image/png, image/jpeg"></div>
+                <div class="forms_hist_linha"><p>Finalidade de Uso:</p> <select id="forms_finalidade" name="finalidade_uso"> <option>Uso Diário</option> <option>Fins de Semana/Lazer</option> <option>Coleção</option> <option>Eventos/Pista</option> </select></div>
             </div>
 
             <div class="forms" id="forms_troca">
-
+                <div class="forms_troca_linha"><h1>Detalhes da Compra e Possível Troca</h1></div>
+                <div class="forms_troca_linha"><p>Necessita de opções de Financiamteno: <input id="forms_financiamento" type="radio" name="financiamento" value="sim"> Sim <input type="radio" name="financiamento" value="nao"> Não <input type="radio" name="financiamento" value="avaliar"> Avaliar Opções</p></div>
+                <div class="forms_troca_linha"><p>Possui Veículos para Troca?</p> <input type="radio" id="forms_troca" name="trade_in" value="sim"> Sim <input type="radio" name="trade_in" value="nao"> Não</div>
+                <div class="forms_troca_linha"><p>Marca/Modelo do Veículo na Troca: </p> <input id="forms_marcaTroca" type="text" name="trade_in_modelo"></div>
+                <div class="forms_troca_linha"><p>Ano de Veículo da Troca:</p><input id="forms_anoTroca" type="number" name="trade_in_ano" min="1950" max="2025"></div>
+                <div class="forms_troca_linha"><p>Quilometragem aproximada da Troca:</p> <input type="number" id="forms_Km" name="trade_in_km" step="1000"></div>
             </div>
 
             <div class="forms" id="forms_final">
