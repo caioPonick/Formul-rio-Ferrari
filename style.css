@@ -26,13 +26,14 @@
 }
 
 .title_txt{
-    margin: 30px;
+    margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 
 #title_ferrari{
-    color: #A80B20;
+    color: #ffffff;
     font-size: 60px;
+    margin-bottom: 30px;
 }
 
 
@@ -56,11 +57,42 @@
 .forms{
     background-color: rgb(255, 255, 255);
     width: 35%;
-    padding: 60px;
+    padding: 90px;
     border-radius: 15px;
 }
 
 #box_forms{
     background-color: #000000;
     padding: 50px;
+}
+
+.forms_ctt_linha{
+    display: flex;
+    margin: 25px;
+}
+
+#title{
+    background-image: url(img/Ferrari-SF-25\ \(10\).jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 50px;
+}
+
+#forms_ctt input{
+    margin-left: 15px;
+}
+
+.forms_carro_linha{
+    display: flex;
+    margin: 25px;
+}
+
+#forms_carro input{
+    margin-left: 15px;
+
+}
+
+#forms_pesquisa_modelo{
+    width: 250px;
 }

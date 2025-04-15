@@ -23,7 +23,6 @@
     <main>
         <div id="title">
             <h1 class="title_txt" id="title_ferrari">FERRARI</h1>
-            <h3 class="title_txt">Formulário de Compra</h3>
         </div>
 
         <div id="box_forms">
@@ -40,11 +39,22 @@
 
             <div class="forms" id="forms_ctt">
                 <div class="forms_ctt_linha"><h1>Preferências de Agendamento e Contato</h1></div>
-                
+                <div class="forms_ctt_linha"><p>Data para primeiro Contato: </p> <input type="date" name="data_contato" id="forms_data" min="2025-04-16"></div>
+                <div class="forms_ctt_linha"><p>Horário preferido: </p> <input type="time" name="horario" id="forms_horario"></div>
+                <div class="forms_ctt_linha"><p>Agendar Visita: </p> <input type="datetime-local" name="agendamento_visita" id="forms_visita"></div>
+                <div class="forms_ctt_linha"><p>Método de Contato Preferido: </p> <input type="radio" name="metodo_contato" id="forms_metodo" value="tel"> Telefone <input type="radio" name="metodo_contato" value="email"> E-mail <input type="radio" name="metodo_contato" value="wa"> WhatsApp </div>
             </div>
 
             <div class="forms" id="forms_carro">
-
+                <div class="forms_carro_linha"><h1>Modelos de Interesse</h1></div>
+                <div class="forms_carro_linha"><p>Modelo(s) de interesse: </p> <input type="checkbox" id="forms_modelo" name="modelo" value="roma"> Roma <input type="checkbox" name="modelo" value="296gtb"> 296 GTB <input type="checkbox" name="modelo" value="purosangue"> Purosangue</div>
+                <div class="forms_carro_linha"><p>Pesquisar modelo específico: </p> <input type="search" id="forms_pesquisa_modelo" name="busca_modelo" placeholder="Digite um modelo específico..."></div>
+                <div class="forms_carro_linha"><p>Condição do veículo: </p> <input type="radio" id="forms_condicao" name="condicao" value="novo"> Novo <input type="radio" name="condicao" value="seminovo"> Seminovo Certificado </div>
+                <div class="forms_carro_linha"><p>Cor Externa: </p> <input type="color" id="forms_corExt" name="cor_externa" value="#FF0000"></div>
+                <div class="forms_carro_linha"><p>Cor Interna: </p> <input type="color" id="forms_corInt" name="cor_interna" value="#000000"></div>
+                <div class="forms_carro_linha"><p>Seu Nível de Interesse Atual (1=Curioso, 10=Pronto para Começar): </p> <input type="range" id="forms_interesse" name="nivel_interesse" min="1" max="10" value="5"> <output name="valor_interesse"></output></div>
+                <div class="forms_carro_linha"><p>Mês / Ano Estimado para Compra: </p> <input type="month" id="forms_mesCompra" name="mes_ano_compra"></div>
+                <div class="forms_carro_linha"><p>Semana Ideal para Test Drive: </p> <input type="week" id="forms_semanaTest" name="semana_test_drive"></div>
             </div>
 
             <div class="forms" id="forms_hist">
