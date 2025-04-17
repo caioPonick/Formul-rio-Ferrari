@@ -32,7 +32,7 @@
                 <div class="forms_pess_linha"><p>Seu Melhor E-mail: </p> <input type="email" name="e-mail" id="forms_email" placeholder="seu@email.com"></div>
                 <div class="forms_pess_linha"><p>Telefone Principal: </p><input type="tel" name="telefone" id="forms_tel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999"></div>
                 <div class="forms_pess_linha"><p>Idade: </p><input type="number" name="idade" id="forms_idade" min="18" max="120"></div>
-                <div class="forms_pess_linha"><p>País de Residência: </p> <select name="pais"> <option value="BR">Brasil</option> <option value="US">Estados Unidos</option> </select></div>
+                <div class="forms_pess_linha"><p>País de Residência: </p> <select name="pais" id="forms_pais"> <option value="BR">Brasil</option> <option value="US">Estados Unidos</option> </select></div>
                 <div class="forms_pess_linha"><p>Cidade: </p> <input type="text" name="cidade" id="forms_cidade"> <datalist id="cidades_brasil"> <option value="São Paulo"> <option value="Rio de Janeiro"> <option value="Joinville"> </datalist></div>
                 <div class="forms_pess_linha"><p>Link do seu Perfil do Instagram: </p> <input type="url" name="instagram_url" id="forms_instagram" placeholder="https://instagram.com/seu_perfil"> </div>
             </div>
@@ -81,8 +81,7 @@
             </div>
             
             <div id="botoes" class="forms">
-                <button type="submit" class="botoes_inner" >Enviar Minha Solicitação Ferrari</button>
-                <input type="reset" class="botoes_inner" value="Limpar Campos">
+                <button type="submit" class="botoes_inner" onclick="validar()"><strong>Enviar Minha Solicitação Ferrari</strong></button>
             </div>
         </div>
     </main>

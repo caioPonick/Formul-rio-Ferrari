@@ -129,10 +129,17 @@
 #botoes{
     display: flex;
     justify-content: space-around;
+    background-color: black;
 }
 
 .botoes_inner{
     background-color: #A80B20;
     color: white;
     padding: 20px;
+    border: 0;
+    border-radius: 15px;
+    width: 300px;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
