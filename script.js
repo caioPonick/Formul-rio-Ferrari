@@ -20,7 +20,6 @@ function validar() {
     let semanaTest = document.getElementById("forms_semanaTest").value;
     let possuiu = document.getElementById("forms_possuiu").value;
     let fotoInput = document.getElementById("forms_foto");
-    let foto = fotoInput.value;
     let finalidade = document.getElementById("forms_finalidade").value;
     let financiamento = document.getElementById("forms_financiamento").value;
     let possuiTroca = document.getElementById("forms_troca").value;
